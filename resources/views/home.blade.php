@@ -2,7 +2,7 @@
  
  @section('conteudo')
  <!-- Hero Section Begin -->
- <section class="hero spad set-bg" data-setbg="img/hero-bg.jpg">
+ <section class="hero spad set-bg" data-setbg="{{asset('assets/img/hero-bg.jpg')}}">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -60,7 +60,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
-                            <div class="consultation__video set-bg" data-setbg="img/consultation-video.jpg">
+                            <div class="consultation__video set-bg" data-setbg="{{asset('assets/img/consultation-video.jpg')}}">
                                 <a href="https://www.youtube.com/watch?v=PXsuI67s2AA" class="play-btn video-popup"><i class="fa fa-play"></i></a>
                             </div>
                         </div>
@@ -86,28 +86,28 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="chooseus__item">
-                    <img src="img/icons/ci-1.png" alt="">
+                    <img src="{{asset('assets/img/icons/ci-1.png')}}" alt="">
                     <h5>Advanced equipment</h5>
                     <p>Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod tempor cididunt facilisis.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="chooseus__item">
-                    <img src="img/icons/ci-2.png" alt="">
+                    <img src="{{asset('assets/img/icons/ci-2.png')}}" alt="">
                     <h5>Qualified doctors</h5>
                     <p>Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod tempor cididunt facilisis.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="chooseus__item">
-                    <img src="img/icons/ci-3.png" alt="">
+                    <img src="{{asset('assets/img/icons/ci-3.png')}}" alt="">
                     <h5>Certified services</h5>
                     <p>Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod tempor cididunt facilisis.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="chooseus__item">
-                    <img src="img/icons/ci-4.png" alt="">
+                    <img src="{{asset('assets/img/icons/ci-4.png')}}" alt="">
                     <h5>Emergency care</h5>
                     <p>Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod tempor cididunt facilisis.</p>
                 </div>
@@ -118,7 +118,7 @@
 <!-- Chooseus Section End -->
 
 <!-- Services Section Begin -->
-<section class="services spad set-bg" data-setbg="img/services-bg.jpg">
+<section class="services spad set-bg" data-setbg="{{asset('assets/img/services-bg.jpg')}}">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-6">
@@ -201,7 +201,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team__item">
-                    <img src="img/team/team-1.jpg" alt="">
+                    <img src="{{asset('assets/img/team/team-1.jpg')}}" alt="">
                     <h5>Caroline Grant</h5>
                     <span>Plastic surgeon</span>
                     <div class="team__item__social">
@@ -214,7 +214,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team__item">
-                    <img src="img/team/team-2.jpg" alt="">
+                    <img src="{{asset('assets/img/team/team-2.jpg')}}" alt="">
                     <h5>Dr. Maria Angel</h5>
                     <span>Plastic surgeon</span>
                     <div class="team__item__social">
@@ -227,7 +227,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="team__item">
-                    <img src="img/team/team-3.jpg" alt="">
+                    <img src="{{asset('assets/img/team/team-3.jpg')}}" alt="">
                     <h5>Nathan Mullins</h5>
                     <span>Plastic surgeon</span>
                     <div class="team__item__social">
@@ -247,26 +247,26 @@
 <div class="gallery">
     <div class="gallery__container">
         <div class="grid-sizer"></div>
-        <div class="gc__item set-bg" data-setbg="img/gallery/gallery-1.jpg">
-            <a href="img/gallery/gallery-1.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+        <div class="gc__item set-bg" data-setbg="{{asset('assets/img/gallery/gallery-1.jpg')}}">
+            <a href="{{asset('assets/img/gallery/gallery-1.jpg')}}" class="image-popup"><i class="fa fa-search-plus"></i></a>
         </div>
-        <div class="gc__item set-bg" data-setbg="img/gallery/gallery-2.jpg">
-            <a href="img/gallery/gallery-2.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+        <div class="gc__item set-bg" data-setbg="{{asset('assets/img/gallery/gallery-2.jpg')}}">
+            <a href="{{asset('assets/img/gallery/gallery-2.jpg')}}" class="image-popup"><i class="fa fa-search-plus"></i></a>
         </div>
-        <div class="gc__item set-bg" data-setbg="img/gallery/gallery-3.jpg">
-            <a href="img/gallery/gallery-3.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+        <div class="gc__item set-bg" data-setbg="{{asset('assets/img/gallery/gallery-3.jpg')}}">
+            <a href="{{asset('assets/img/gallery/gallery-3.jpg')}}" class="image-popup"><i class="fa fa-search-plus"></i></a>
         </div>
-        <div class="gc__item gc__item__large set-bg" data-setbg="img/gallery/gallery-4.jpg">
-            <a href="img/gallery/gallery-4.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+        <div class="gc__item gc__item__large set-bg" data-setbg="{{asset('assets/img/gallery/gallery-4.jpg')}}">
+            <a href="{{asset('assets/img/gallery/gallery-4.jpg')}}" class="image-popup"><i class="fa fa-search-plus"></i></a>
         </div>
-        <div class="gc__item set-bg" data-setbg="img/gallery/gallery-5.jpg">
-            <a href="img/gallery/gallery-5.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+        <div class="gc__item set-bg" data-setbg="{{asset('assets/img/gallery/gallery-5.jpg')}}">
+            <a href="{{asset('assets/img/gallery/gallery-5.jpg')}}" class="image-popup"><i class="fa fa-search-plus"></i></a>
         </div>
-        <div class="gc__item set-bg" data-setbg="img/gallery/gallery-6.jpg">
-            <a href="img/gallery/gallery-6.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+        <div class="gc__item set-bg" data-setbg="{{asset('assets/img/gallery/gallery-6.jpg')}}">
+            <a href="{{asset('assets/img/gallery/gallery-6.jpg')}}" class="image-popup"><i class="fa fa-search-plus"></i></a>
         </div>
-        <div class="gc__item set-bg" data-setbg="img/gallery/gallery-7.jpg">
-            <a href="img/gallery/gallery-7.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+        <div class="gc__item set-bg" data-setbg="{{asset('assets/img/gallery/gallery-7.jpg')}}">
+            <a href="{{asset('assets/img/gallery/gallery-7.jpg')}}" class="image-popup"><i class="fa fa-search-plus"></i></a>
         </div>
     </div>
 </div>
@@ -294,7 +294,7 @@
                     <h5><a href="#">Here’s how you can get a natural glow this party season</a></h5>
                     <p>Lorem ipsum, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                     <ul>
-                        <li><img src="img/blog/blog-author.jpg" alt=""> John Doe</li>
+                        <li><img src="{{asset('assets/img/blog/blog-author.jpg')}}" alt=""> John Doe</li>
                         <li>Dec 06, 2019</li>
                     </ul>
                 </div>
@@ -304,7 +304,7 @@
                     <h5><a href="#">Get better skin with these top 10 tips for skin care</a></h5>
                     <p>Lorem ipsum, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                     <ul>
-                        <li><img src="img/blog/blog-author.jpg" alt=""> John Doe</li>
+                        <li><img src="{{asset('assets/img/blog/blog-author.jpg')}}" alt=""> John Doe</li>
                         <li>Dec 06, 2019</li>
                     </ul>
                 </div>
@@ -314,7 +314,7 @@
                     <h5><a href="#">8 Ways to Save Your Skin if You Exercise Outside This Winter</a></h5>
                     <p>Lorem ipsum, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                     <ul>
-                        <li><img src="img/blog/blog-author.jpg" alt=""> John Doe</li>
+                        <li><img src="{{asset('assets/img/blog/blog-author.jpg')}}" alt=""> John Doe</li>
                         <li>Dec 06, 2019</li>
                     </ul>
                 </div>
